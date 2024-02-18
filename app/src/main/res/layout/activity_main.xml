@@ -1,0 +1,51 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/show_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отгадай" />
+
+    <TextView
+        android:id="@+id/show_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Задумано двузначное число" />
+
+    <EditText
+        android:id="@+id/edit_num"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btn_guess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отгадать" />
+
+    <TextView
+        android:id="@+id/attempts_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5" />
+
+    <Button
+        android:id="@+id/btn_restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="restart"
+        android:text="Заново" />
+
+    <TextView
+        android:id="@+id/comp_num_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
