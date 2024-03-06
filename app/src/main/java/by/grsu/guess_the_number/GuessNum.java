@@ -3,7 +3,7 @@ package by.grsu.guess_the_number;
 import java.util.Random;
 
 public class GuessNum {
-    static public int rndCompNum0(){
+    static public int rndCompNum(){
         int min = 10;
         int max = 99;
         int diff = max - min;

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Guess the number</string>
+    <string name="attempts_left_label">5</string>
+    <string name="btn_guess_label">Guess</string>
+    <string name="btn_restart_label">Restart</string>
+    <string name="congrats_msg_label">Congratulations!</string>
+    <string name="restart_msg_label">Click "Restart"</string>
+    <string name="guessed_msg_label">Guessed!</string>
+    <string name="show_user_number_greater">Your number is higher!</string>
+    <string name="show_user_number_less">Your number is lower!</string>
+    <string name="invalid_number_message">Incorrect number format!</string>
+    <string name="game_over_msg_label">Game over!</string>
+    <string name="show_msg_label">Guess it!</string>
+    <string name="show_hint_label">Two-digit number intended</string>
+</resources>

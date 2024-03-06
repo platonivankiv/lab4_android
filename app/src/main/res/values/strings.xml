@@ -1,15 +1,15 @@
 <resources>
-    <string name="app_name">Название вашего приложения</string>
-    <string name="show_msg_label">Отгадай</string>
-    <string name="show_hint_label">Задумано число</string>
-    <string name="edit_hint_label">Введите число</string>
+    <string name="app_name">Guess the number</string>
+    <string name="show_msg_label">Отгадай!</string>
+    <string name="show_hint_label">Задумано двузначное число</string>
+    <string name="attempts_left_label">5</string>
     <string name="btn_guess_label">Отгадать</string>
-    <string name="attempts_left_label">Осталось попыток: %1$d</string>
     <string name="btn_restart_label">Заново</string>
-    <string name="congrats_message">Поздравляю!</string>
-    <string name="try_again_message">Заново</string>
-    <string name="guessed_button_label">Отгадано</string>
+    <string name="congrats_msg_label">Поздравляю!</string>
+    <string name="restart_msg_label">Нажмите "Заново"</string>
+    <string name="guessed_msg_label">Отгадано!</string>
+    <string name="show_user_number_greater">Ваше число больше!</string>
+    <string name="show_user_number_less">Ваше число меньше!</string>
     <string name="invalid_number_message">Некорректный формат числа</string>
-
-
+    <string name="game_over_msg_label">Игра окончена</string>
 </resources>
