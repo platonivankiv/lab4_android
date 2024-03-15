@@ -6,6 +6,10 @@ android {
     namespace = "by.grsu.guess_the_number"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "by.grsu.guess_the_number"
         minSdk = 17
