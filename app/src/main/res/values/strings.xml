@@ -1,15 +1,46 @@
 <resources>
-    <string name="app_name">Guess the number</string>
+    <string name="app_name" translatable="false">Guess the number</string>
     <string name="show_msg_label">Отгадай!</string>
-    <string name="show_hint_label">Задумано двузначное число</string>
-    <string name="attempts_left_label">5</string>
+    <string name="show_hint_label_2">Задумано двузначное число</string>
+    <string name="show_hint_label_3">Задумано трехзначное число</string>
+    <string name="show_hint_label_4">Задумано четырехзначное число</string>
+    <string name="attempts_left_label_2" translatable="false">5</string>
+    <string name="attempts_left_label_3" translatable="false">7</string>
+    <string name="attempts_left_label_4" translatable="false">10</string>
     <string name="btn_guess_label">Отгадать</string>
     <string name="btn_restart_label">Заново</string>
-    <string name="congrats_msg_label">Поздравляю!</string>
-    <string name="restart_msg_label">Нажмите "Заново"</string>
-    <string name="guessed_msg_label">Отгадано!</string>
+    <string name="show_win_msg_label">Отгадано!</string>
+    <string name="show_congrat_msg_label">Поздравляю!</string>
+    <string name="show_lose_msg">Вы проиграли!</string>
     <string name="show_user_number_greater">Ваше число больше!</string>
     <string name="show_user_number_less">Ваше число меньше!</string>
-    <string name="invalid_number_message">Некорректный формат числа</string>
-    <string name="game_over_msg_label">Игра окончена</string>
+    <string name="show_user_number_missing">Введите число!</string>
+    <string name="show_restart_msg_label">Нажмите "Заново" или "Режимы"</string>
+    <string name="btn_modes_label">Режимы</string>
+    <string-array name="diaps_array">
+        <item>@string/_2</item>
+        <item>@string/_3</item>
+        <item>@string/_4</item>
+    </string-array>
+    <string name="_2">2-значные</string>
+    <string name="_3">3-значные</string>
+    <string name="_4">4-значные</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отменить</string>
+    <string name="btn_send_label">Отправить</string>
+    <string name="btn_save_label">Сохранить</string>
+    <string name="title_activity_edit_player_name">Изменить имя игрока</string>
+    <string name="new_name_label">Введите новое имя</string>
+    <string name="original_name">Пользователь</string>
+    <string name="edit_name">Изменить</string>
+    <string name="info_about_game">Информация об итогах игры:</string>
+    <string name="send_info">Отправить результаты игры</string>
+    <string name="no_situable_apps">Нет подходящих приложений для отправки</string>
+    <string name="google_keep_not_installed">Приложение Заметки(Google Keep) не установлено</string>
+    <string name="btn_clear_label">Очистить</string>
+    <string name="send_and_save_win_msg">"Победа!\nПопыток осталось: "</string>
+    <string name="send_and_save_win_number">"\nУгаданное число: "</string>
+    <string name="send_and_save_lose_number">"Проигрыш\nЗагаданное число: "</string>
+    <string name="save_date_and_time">"\nДата и время: "</string>
+    <string name="hidden_number">"Загаданное число: "</string>
 </resources>

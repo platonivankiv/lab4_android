@@ -1,15 +1,46 @@
 <resources>
-    <string name="app_name">Guess the number</string>
-    <string name="attempts_left_label">5</string>
+    <string name="app_name" translatable="false">Guess the number</string>
+    <string name="show_msg_label">Guess!</string>
+    <string name="show_hint_label_2">Two-digit number is conceived</string>
+    <string name="show_hint_label_3">Three-digit number is conceived</string>
+    <string name="show_hint_label_4">Four-digit number is conceived</string>
+    <string name="attempts_left_label_2" translatable="false">5</string>
+    <string name="attempts_left_label_3" translatable="false">7</string>
+    <string name="attempts_left_label_4" translatable="false">10</string>
     <string name="btn_guess_label">Guess</string>
     <string name="btn_restart_label">Restart</string>
-    <string name="congrats_msg_label">Congratulations!</string>
-    <string name="restart_msg_label">Click "Restart"</string>
-    <string name="guessed_msg_label">Guessed!</string>
-    <string name="show_user_number_greater">Your number is higher!</string>
-    <string name="show_user_number_less">Your number is lower!</string>
-    <string name="invalid_number_message">Incorrect number format!</string>
-    <string name="game_over_msg_label">Game over!</string>
-    <string name="show_msg_label">Guess it!</string>
-    <string name="show_hint_label">Two-digit number intended</string>
+    <string name="show_win_msg_label">Guessed!</string>
+    <string name="show_congrat_msg_label">Congratulations!</string>
+    <string name="show_lose_msg">You lost!</string>
+    <string name="show_user_number_greater">Your number is greater!</string>
+    <string name="show_user_number_less">Your number is smaller!</string>
+    <string name="show_user_number_missing">Enter a number!</string>
+    <string name="show_restart_msg_label">Press "Restart" or "Modes"</string>
+    <string name="btn_modes_label">Modes</string>
+    <string-array name="diaps_array">
+        <item>@string/_2</item>
+        <item>@string/_3</item>
+        <item>@string/_4</item>
+    </string-array>
+    <string name="_2">Two-digit</string>
+    <string name="_3">Three-digit</string>
+    <string name="_4">Four-digit</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="btn_send_label">Send</string>
+    <string name="btn_save_label">Save</string>
+    <string name="title_activity_edit_player_name">Edit player name</string>
+    <string name="new_name_label">Enter new name</string>
+    <string name="original_name">User</string>
+    <string name="edit_name">Edit</string>
+    <string name="info_about_game">Game results:</string>
+    <string name="send_info">Send game results</string>
+    <string name="no_situable_apps">No suitable apps for sending</string>
+    <string name="google_keep_not_installed">Notes app (Google Keep) is not installed</string>
+    <string name="btn_clear_label">Clear</string>
+    <string name="send_and_save_win_msg">"Victory!\nAttempts left: "</string>
+    <string name="send_and_save_win_number">"\nGuessed number: "</string>
+    <string name="send_and_save_lose_number">"Loss\nConceived number: "</string>
+    <string name="save_date_and_time">"\nDate and time: "</string>
+    <string name="hidden_number">"Conceived number: "</string>
 </resources>
