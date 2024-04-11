@@ -43,4 +43,17 @@
     <string name="send_and_save_lose_number">"Loss\nConceived number: "</string>
     <string name="save_date_and_time">"\nDate and time: "</string>
     <string name="hidden_number">"Conceived number: "</string>
+
+    <string name="settings">Settings</string>
+    <string name="about_developer">About Developer</string>
+    <string name="menu_label">Menu</string>
+    <string name="full_name">Ivankiv Platon Sergeevich</string>
+    <string name="birth_date">09.08.2003</string>
+    <string name="hobby">Programmer</string>
+    <string name="back"><![CDATA[<-Back]]></string>
+    <string name="context_menu_label">Menu</string>
+    <string name="show_comp_num_label">Show number</string>
+    <string name="add_attempt_label">Add attempt</string>
+    <string name="after_notification_clicked_label">After notification clicked</string>
+
 </resources>

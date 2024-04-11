@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9370db"
+    android:orientation="vertical"
+    tools:context=".AboutDeveloperActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/my_photo"
+            tools:srcCompat="@drawable/my_photo" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/FullNameLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:text="@string/full_name"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/BirthDateLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:gravity="center"
+            android:text="@string/birth_date"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/hobbyLinear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_margin="7dp"
+            android:text="@string/hobby"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/back_to_main_from_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="backToMain"
+            android:text="@string/back" />
+
+    </LinearLayout>
+
+</android.widget.LinearLayout>

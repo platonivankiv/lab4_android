@@ -6,4 +6,26 @@
     android:fitsSystemWindows="true"
     android:orientation="vertical"
     tools:context=".EditPlayerNameActivity">
+
+    <TextView
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/new_name_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_name_label" />
+
+    <EditText
+        android:id="@+id/player_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    />
+
+
+    <Button
+        android:id="@+id/btn_save_edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveEditName"
+        android:text="@string/btn_save_label" />
 </android.widget.LinearLayout>
